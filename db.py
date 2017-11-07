@@ -72,4 +72,4 @@ class Db:
     f = file(filename, "r")
     sql = f.read()
     f.close()
-self.execute(sql)
+    self.execute(sql)
