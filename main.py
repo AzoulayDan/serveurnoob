@@ -23,6 +23,6 @@ def reset():
     db = Db()
     db.select("SELECT * FROM Joueur")
     db.close()
-    return "SELECT OK."
+    return "SELECT OK.!!"
 #**********************************************************************************#
 
